@@ -1,6 +1,5 @@
 package ac.simons.assertjdemos;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -29,7 +28,7 @@ class WeirdServiceTest {
     }
 
     @Test
-    @DisplayName("Sometimes you have service that is just... weird. Here it returns objects")
+    @DisplayName("Sometimes you have service that is just… weird… 🤡 Here it returns objects")
     public void niceTypeChecks() {
         assertThat(weirdService.getAString())
             .isInstanceOf(String.class)
